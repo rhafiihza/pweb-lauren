@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('skills.index');
-});
+// Route::get('/', function () {
+//     return view('skills.index');
+// });
 
-Route::resource('skills', 'SkillsController');
+Route::resource('/', 'SkillsController');
